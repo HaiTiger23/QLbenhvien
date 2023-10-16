@@ -21,12 +21,17 @@ ob_start();
   <link href="bootstrap/summernote.css" rel="stylesheet">
   <link href="bootstrap/fullcalendar.min.css" rel="stylesheet">
   <link href="bootstrap/morris.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/times-new-roman" rel="stylesheet">
+                
 
   <!-- Vendor -->
   <link href="vendor/md-snackbars.min.css" rel="stylesheet">
   <link href="vendor/zabuto_calendar.min.css" rel="stylesheet">
   <link href="vendor/dataTables.bootstrap4.min.css" rel="stylesheet">
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
   <!-- Theme -->
   <link href="css/spark.css" rel="stylesheet">
 

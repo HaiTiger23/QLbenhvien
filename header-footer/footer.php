@@ -92,6 +92,7 @@
   <script src="js/jquery-jvectormap-uk_countries-mill.js"></script>
   <script src="js/jquery-jvectormap-us-aea.js"></script>
   <script src="js/gmaps.min.js"></script>
+  <script src="js/exportPDF.js"></script>
 
   <!-- Theme -->
   <script src="js/spark.js"></script>

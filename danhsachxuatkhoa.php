@@ -1,6 +1,11 @@
 <?php 
     require_once('header-footer/header.php');
  ?>
+ <style>
+  #listXuatKhoa {
+    font-family: "times";
+  }
+ </style>
  
       <div class="page-body">
         <div class="container-fluid">
@@ -79,12 +84,13 @@
                                 </div>
 
                                 <button type="submit" class="btn btn-info" style="margin-left: 10px; height: 38px;">Tìm kiếm</button>
+                                <div id="btnExport" class="btn btn-success" style="margin-left: 10px; height: 38px;">Xuất File</div>
                               </form>
                             </div>
                           </div>
                       <div class="panel panel-default" style="margin-top: 20px;">
                       <!-- Table -->
-                      <table class="table" border="0" cellspacing="1" cellpadding="1">
+                      <table class="table" border="0" cellspacing="1" cellpadding="1" id="listXuatKhoa">
                         <thead>
                           <tr>
                             <th>ID</th>
